@@ -3,7 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<version>0.0.1-alpha</version>
 	
-	<group-id>com.mindlin.jsast</group-id>
+	<groupIid>com.mindlin.jsast</group-id>
+	<artifactId>core</artifactId>
 	<packaging>jar</packaging>
 	
 	<properties>
