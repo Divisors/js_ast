@@ -1,0 +1,39 @@
+<project>
+	<name>Nautilus JavaScript Parser</name>
+	<modelVersion>4.0.0</modelVersion>
+	<version>0.0.1-alpha</version>
+	
+	<group-id>com.mindlin.jsast</group-id>
+	<packaging>jar</packaging>
+	
+	<properties>
+		<src.dir>src</src.dir>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.5</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<directory>bin</directory>
+		<outputDirectory>bin/classes</outputDirectory>
+		<finalName>${artifactId}-${version}</finalName>
+		<testOutputDirectory>bin/test-classes</testOutputDirectory>
+		<sourceDirectory>src</sourceDirectory>
+		<testSourceDirectory>test</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+			</testResource>
+		</testResources>
+	</build>
+</project>
